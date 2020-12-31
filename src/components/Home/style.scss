@@ -1,0 +1,97 @@
+.home {
+    background: white;
+    width: 360px;
+    margin: 0 auto;
+
+    .day-card-big {
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+        .big-temp {
+            font-size: 40px;
+            font-weight: 800;
+        }
+
+        .humidity, .wind {
+            padding: 10px;
+            width: 45%;
+            margin-top: 20px;
+            background: rgb(246,250,255);
+            border-radius: 5px;
+
+            .title {
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            .value {
+                margin-top: 5px;
+                font-weight: 500;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .weather-icon {
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .weather-icon-big {
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    .cloudy {
+        background: url('../../img//cloudy.png');
+        background-size: cover;
+    }
+
+    .sunny {
+        background: url('../../img//sunny.png');
+        background-size: cover;
+    }
+
+    .rainy {
+        background: url('../../img//rain.png');
+        background-size: cover;
+    }
+
+    padding: 20px;
+
+    .day-cards {
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .day-card {
+        padding: 10px;
+        margin-right: 5px;
+        margin-top: 20px;
+        cursor: pointer;
+
+        .day {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .max {
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .max, .min {
+            font-size: 12px;
+        }
+
+        .condition {
+            font-size: 11px;
+            margin-top: 10px;
+        }
+    }
+}
